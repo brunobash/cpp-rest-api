@@ -93,6 +93,8 @@ rest_api_example_EXTERNAL_OBJECTS =
 rest_api_example: CMakeFiles/rest_api_example.dir/main.cpp.o
 rest_api_example: CMakeFiles/rest_api_example.dir/build.make
 rest_api_example: /usr/lib/x86_64-linux-gnu/libcpprest.so.2.10
+rest_api_example: /usr/lib/x86_64-linux-gnu/libssl.so
+rest_api_example: /usr/lib/x86_64-linux-gnu/libcrypto.so
 rest_api_example: CMakeFiles/rest_api_example.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/noiseman/Projects/cpp/rest-apis/item-store/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable rest_api_example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rest_api_example.dir/link.txt --verbose=$(VERBOSE)
