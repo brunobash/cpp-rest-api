@@ -19,16 +19,16 @@ void handle_get(http_request request) {
 		response_data[item.first] = item.second;
 	}
 
-	request.reply(status_code::OK, response_data);
+	request.reply(status_codes::OK, response_data);
 }
 
 //function to hadle with POST requests
 void handle_post(http_request request) {
 	request
-		.extract_json();
+		.extract_json()
 		.then([=](json::value item_data){
 			static int current_id = 0;
-			item[++current_id] = item_data;
+			items[++current_id] = item_data;
 			request.reply(status_codes::Created, json::value::number(current_id));
 		})
 		.wait();
