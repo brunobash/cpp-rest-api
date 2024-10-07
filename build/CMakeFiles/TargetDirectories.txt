@@ -1,0 +1,3 @@
+/home/noiseman/Projects/cpp/rest-apis/item-store/build/CMakeFiles/rest_api_example.dir
+/home/noiseman/Projects/cpp/rest-apis/item-store/build/CMakeFiles/edit_cache.dir
+/home/noiseman/Projects/cpp/rest-apis/item-store/build/CMakeFiles/rebuild_cache.dir
