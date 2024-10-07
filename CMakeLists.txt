@@ -7,4 +7,4 @@ find_package(cpprestsdk REQUIRED)
 
 add_executable(rest_api_example main.cpp)
 
-targe_link_libraries(rest_api_example PRIVATE cppretsdk::cpprest)
+target_link_libraries(rest_api_example PRIVATE cpprestsdk::cpprest)
